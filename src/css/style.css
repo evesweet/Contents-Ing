@@ -66,6 +66,10 @@ nav li a:hover{
     color:black;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .destaque {
     color:rgb(37, 98, 189);
     font-family: "Varela Round";
