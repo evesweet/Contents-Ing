@@ -22,5 +22,70 @@ header {
     border-radius: 50%;
     @include size(70px, 70px);
     background-color: $color-dark-blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
 
+#menu {
+    width: 30px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid $color-blue;
+}
+
+nav ul {
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    margin-right: 200px;
+}
+
+nav li{
+    display: inline;
+    padding-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: $color-darkblue-ocean;
+}
+
+nav li a:hover {
+    background-color: $color-white;
+    color: $color-black;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.destaque {
+    color: $color-dark-blue;
+    font-family: "Varela Round"
+}
+
+.recepcao {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.bio {
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
