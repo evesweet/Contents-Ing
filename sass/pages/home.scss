@@ -1,5 +1,26 @@
-// Import colors
-@import '../colors/colors.scss';
+* {
+    margin: 0;
+    padding: 0;
+}
 
-// Import mixins
-@import '../mixins/mixins.scss'
+header {
+    padding: 50px;
+    background: rgb(123,191,232);
+    background: radial-gradient(circle, rgba(123,191,232,1) 0%, rgba(106,174,231,1) 52%, rgba(86,161,221,1) 74%, rgba(71,147,208,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site {
+    @include title-style($color-white, 800, "Varela Round");
+}
+
+.botao {
+    padding-bottom: 2px;
+    border: none;
+    border-radius: 50%;
+    @include size(70px, 70px);
+    background-color: $color-dark-blue;
+
+}

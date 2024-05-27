@@ -1,5 +1,10 @@
-@mixin title-style {
-    font-family: "Varela Round";
-    font-weight: 800;
-    color: $color-white;
+@mixin title-style ($color, $font-weight, $font-family){
+    color: $color;
+    font-weight: $font-weight;
+    font-family: $font-family;
+}
+
+@mixin size ($width, $height){
+    width: $width;
+    height: $height;
 }
