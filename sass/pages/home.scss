@@ -88,4 +88,23 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
+    bottom: 0;
+    width: 100%;
+    background-color: $color-blue;
+}
+
+.final {
+    font-family: "Comfortaa";
+    color: $color-white;
+    padding-top: 10px;
+    bottom: 10px;
+}
+
+.creditos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dango {
+    margin-top: -10px;
 }
