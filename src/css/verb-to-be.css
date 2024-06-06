@@ -66,6 +66,10 @@ nav li a:hover{
     color:black;
 }
 
+/* nav [open] li::after {
+    background-color: #9ba8fa;
+} */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -95,4 +99,18 @@ footer {
 
 .dango {
     margin-top: -10px;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+}
+
+td {
+    border-bottom: 1px solid black;
+}
+
+th {
+    background-color: #679be996;
+    border-radius: 8px;
 }
